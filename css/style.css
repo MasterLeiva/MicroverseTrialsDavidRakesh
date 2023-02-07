@@ -1,3 +1,54 @@
 #navbar {
-    
+ display: flex;
+ position: fixed;
+ justify-content: flex-end;
+ top: 0;
+ left: 0;
+ width: 100%;
+ background: #fca311;
+ z-index: 10;  
+ 
+}
+#list-nav {
+ display: right;
+margin-right: 2rem
+
+}
+ul{
+    list-style: none;
+
+}
+a{
+    color: purple;
+    text-decoration: none; 
+}
+#list-nav a { 
+    display: block;
+    padding: 2rem; 
+
+}
+#list-nav li {
+    display: inline-block;
+   padding: 0 0.5rem;
+   border-left: 1px solid black ;
+}
+#welcome-section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#welcome-section p {
+   font-size: 5rem;
+
+}
+@media (max-width : 25.75em) {
+    #projects {
+        text-align: center;
+
+    } 
+       
 }
